@@ -1,9 +1,11 @@
 <template>
   <div class="add-contact">
     <h2>Add New Contact</h2>
-    <input type="text" class="input" v-model="newContact" @keyup.enter="addContact" placeholder="New Contact">
-    <input type="text" class="input" v-model="newNumber" @keyup.enter="addNumber" placeholder="Number">
-    <button @click="addContact" class="btn">Add Contact</button>
+    <div class="add-contact-input">
+      <input type="text" class="input name" v-model="newContact" @keyup.enter="addContact" placeholder="Name">
+      <input type="text" class="input number" v-model="newNumber" @keyup.enter="addNumber" placeholder="Number">
+      <button @click="addContact" class="btn">Add Contact</button>
+    </div>
   </div>
 </template>
 
@@ -47,9 +49,19 @@ export default {
   justify-content: center;
 }
 
+.add-contact .btn {
+  margin: 0.5rem;
+}
+
+.add-contact-input {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+
 .input {
   height: 2rem;
-  margin: 0.5rem 0;
+  margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
 }

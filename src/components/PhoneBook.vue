@@ -29,9 +29,9 @@ export default {
 <style>
 
 .btn {
-  background-color: #e7e7e7;
+  background-color: #0071E3;
   border: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 1rem;
   height: auto;
   margin: 0.5rem 0;
@@ -42,9 +42,13 @@ export default {
 
 .phone-book {
   align-items: center;
+  background-color: #e7e7e7;
+  color: #1d1d1f;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 2rem;
+  padding: 2rem; 
 }
 
 </style>
