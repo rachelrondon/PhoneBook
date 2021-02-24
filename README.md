@@ -1,4 +1,4 @@
-This is a phonebook built with Vue.js
+This is a phonebook built with Vue.js. The user is able to add a new contact (name and phone) and also delete the user.  
 
 # Technologies
 - Vue.js
