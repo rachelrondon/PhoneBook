@@ -1,6 +1,6 @@
 This is a phonebook built with Vue.js
 
-## Technologies
+# Technologies
 - Vue.js
 - HTML/CSS
 - JavaScript (ES6)
